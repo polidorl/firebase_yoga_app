@@ -21,9 +21,13 @@ class YogaCard extends HTMLElement {
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         text-align: center;
         padding: 20px;
+        display: flex;
+        flex-direction: column;
       }
       .card img {
-        max-width: 100%;
+        width: 100%;
+        height: 200px; /* Adjust as needed */
+        object-fit: cover;
         border-radius: 10px;
         margin-bottom: 15px;
       }
